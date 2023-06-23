@@ -17,7 +17,14 @@ Plug your Flipper Zero into your computer and open the [releases](https://github
 
 At this point you can confirm the prompts and turn off the Flipper Zero; if you are highspeed you can also unmount it via the settings menu. Remove the micro sd card and plug it into your computer.
 
-Next `cd` into the root directory of the micro sd card and run `git clone https://github.com/christopherwoodall/micro-flipper .`. This will download the latest version of the repository.
+Next `cd` into the root directory of the micro sd card and run:
+```bash
+  git init
+  git remote add origin git@github.com:christopherwoodall/micro-flipper.git
+  git fetch
+  git reset origin/main
+  git checkout -t origin/main
+```
 
 ---
 
