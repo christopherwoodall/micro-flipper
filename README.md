@@ -2,7 +2,8 @@
 My Flipper Zero SD Card Tools & Layout
 
 # DISCLAIMER
-## This repository is for educational purposes only. The developer is not responsible for any damage you cause to your devices.
+## This repository is not affiliated with Flipper Devices Inc., and is for educational purposes only.
+## The developer is not responsible for any damage you cause to your devices.
 ## Please read everything carefully.
 
 ---
