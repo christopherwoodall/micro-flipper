@@ -14,12 +14,15 @@ Next `cd` into the root directory of the micro sd card and run `git pull https:/
 
 ---
 
+## Resources
 
-## BOM
-- [Flipper Zero](https://flipperzero.one/)
-
+- https://github.com/djsime1/awesome-flipperzero
+- https://github.com/RogueMaster/flipperzero-firmware-wPlugins
+- https://github.com/logickworkshop/Flipper-IRDB
 
 ---
+
 # Please read everything carefully.
 # The developer is not liable for any damage you cause to your devices.
+
 ---
