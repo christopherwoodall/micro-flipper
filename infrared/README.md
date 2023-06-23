@@ -1,91 +1,43 @@
-# Flipper-IRDB  
+# Flipper IR Signals Files #
 
-A **maintained** collective of different IR files for the Flipper! We'd love to have your additions! [See here.](https://github.com/UberGuidoZ/Flipper-IRDB/blob/main/README.md#organization)
+A Collection of IR Signal Files
 
-Maintainers/Major contributors include:
-* [Lucaslhm](https://github.com/Lucaslhm) (*[Maintained Repo](https://github.com/Lucaslhm/Flipper-IRDB)*)
-* [UberGuidoZ](https://github.com/UberGuidoZ) (*[Maintained Fork](https://github.com/UberGuidoZ/Flipper-IRDB)*)
-* [ezod](https://github.com/ezod) (*[Maintained Fork](https://github.com/logickworkshop/Flipper-IRDB)*)
-* [amec0e](https://github.com/amec0e)
-* [darmiel](https://github.com/darmiel)
-* [DedHedZed](https://github.com/dedhedzed)
-* [SkeletonMan](https://github.com/SkeletonMan03/)
-* [Seall.DEV](https://github.com/sealldeveloper)
-* [jaroslavmraz](https://github.com/jaroslavmraz)
-* [E_Surge](https://github.com/ESurge)
-* [Zecred](https://github.com/bussardrobbie)
-* [wdoekes](https://github.com/wdoekes)
-* ... plus MANY others!
+---
+<img align="right" src=".Minolta-MN674.png" width=100>
 
-## Make your own manually!
+#### [Minolta_MN674.ir](Minolta_MN674.ir) ####
 
-Did you know IR files are plain text files? If a remote is missing, you might be able to [make it manually](https://github.com/RandomDebugError/irdb).
+Minolta MN674 Projector
 
-## Universal Remotes
+Amazon product link: [Minolta-MN674](https://www.amazon.com/Minolta-MN674/dp/B08WZ3DNL2/)
 
-The maintainers (mostly amec0e) add individual additions to the various Universal Remotes in Unleashed, which are adapted by many other firmware options. If you would like to contribute to the Universal Remotes, please make sure to follow the naming convention below. For ACs, [this is an important read](https://github.com/flipperdevices/flipperzero-firmware/blob/dev/documentation/UniversalRemotes.md).
+---
+<img align="right" src=".Roomba_5101IR.png" height=100>
 
-## Organization  
+#### [Roomba_5101IR.ir](Roomba_5101IR.ir) ####
 
-This repo is organized in the following fashion in descending order:  
-* Device Type
-* Device Brand
-* Device Series (Where known/applicable)
+Roomba 5101IR IRobot Remote Scheduler (older model)
 
-When adding remotes to this repo, it is helpful to ensure your device name(s) follow the `brand_model.ir` naming scheme. It is also helpful to ensure your model numbers are capitalized, as per the following example:
+Amazon product link: [Remote Control 400 or 500 Series](https://www.amazon.com/Ship-Roomba-Scheduler-Remote-Control/dp/B01693B816/) / [Roomba 5101IR IRobot Remote Scheduler](https://www.amazon.com/Roomba-5101IR-IRobot-Remote-Scheduler/dp/B000E7DL9Q)
 
-`LG_55UN7300AUD.ir`
 
-Please use this naming scheme for buttons.
+---
+<img align="right" src=".Lego-Train-Remote.png" width=100>
 
-**FOR TV**
+#### [Lego_Remote.ir](Lego_Remote.ir) ####
 
-POWER<br>
-MUTE<br>
-VOL+<br>
-CH+<br>
-VOL-<br>
-CH-
+LEGO Power Functions Speed Remote Control (8879)
 
-**FOR AC**
+Product link [Lego Item #8879](https://www.lego.com/en-us/product/lego-power-functions-ir-speed-remote-control-8879)
 
-POWER<br>
-TEMP+<br>
-TEMP-<br>
-MODE<br>
-SWING
+---
 
-**FOR AUDIO**
+### [IR/All-Codes](All-Codes) ###
 
-POWER<br>
-VOL+<br>
-VOL-<br>
-MUTE
+A Collection of alll All possible commands for IR common protocol IR "addresses"
 
-Lastly, it's helpful to add further information as a comment directly into the IR file if possible. Example:
+Good for discovering hidden menus
 
-`Filetype: IR signals file`<br>
-`Version: 1`<br>
-`#`<br>
-`# Dynex EN-21669D TV` <---<br>
-`#`<br>
-`name: POWER`<br>
+( generated using [gen_all_ir_codes.py](../ir_gen_all_codes.py) )
 
-Make, model, link, or even a short description can be helpful if the name is changed (or just in general)!
-
-## To Install New Remotes On Your Flipper:   
-
-1. Git clone this repo to your local PC. [Multiple options are explained here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
-2. Open the cloned repository in a File Explorer.
-3. Connect your Flipper to your PC using a USB-C cable.
-4. Open [QFlipper](https://flipperzero.one/update)
-5. Verify that your Flipper shows "Connected"
-6. Ensure your Flipper is fully up-to-date:
-    1. Look for the green "Update" button near the middle-right of the application.
-    2. Press "Update" and allow the Flipper to complete the Update process and then reboot before continuing.
-7. Open the File Manager by selecting the "File Manager" icon (piece of paper) on the top left of the QFlipper application.
-8. Select `SD Card`, then navigate to the `infrared` folder by double-clicking its icon.
-9. Drag the .ir files you want on your Flipper from the File Explorer into the QFlipper File Manager.
-10. Disconnect the Flipper from the PC and have fun!
-
-NOTE: If you plan to copy them all, it's highly recommended to [dismount the SD card](https://docs.flipperzero.one/basics/sd-card#g4-removing-the-sd-card) and plug it into the computer directly.
+---
