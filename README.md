@@ -19,6 +19,7 @@ Next `cd` into the root directory of the micro sd card and run `git clone https:
 - https://github.com/djsime1/awesome-flipperzero
 - https://github.com/RogueMaster/flipperzero-firmware-wPlugins
 - https://github.com/logickworkshop/Flipper-IRDB
+- https://github.com/evilpete/flipper_toolbox
 
 ---
 
