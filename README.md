@@ -1,6 +1,12 @@
 # Micro Flipper
 My Flipper Zero SD Card Tools & Layout
 
+# DISCLAIMER
+## This repository is for educational purposes only. The developer is not responsible for any damage you cause to your devices.
+## Please read everything carefully.
+
+---
+
 ## Getting Started
 Format your micro sd card as FAT32 and label it `FLIPPER`; this will make it easier to find in your file manager. After formatting, insert the card into your Flipper Zero and power it on.
 
@@ -21,9 +27,5 @@ Next `cd` into the root directory of the micro sd card and run `git clone https:
 - https://github.com/logickworkshop/Flipper-IRDB
 - https://github.com/evilpete/flipper_toolbox
 
----
-
-# Please read everything carefully.
-# The developer is not liable for any damage you cause to your devices.
 
 ---
