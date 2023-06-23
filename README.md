@@ -27,6 +27,6 @@ Next `cd` into the root directory of the micro sd card and run `git clone https:
 - https://github.com/logickworkshop/Flipper-IRDB
 - https://github.com/evilpete/flipper_toolbox
 - https://github.com/I-Am-Jakoby/Flipper-Zero-BadUSB
-- 
+- https://github.com/FalsePhilosopher/badusb
 
 ---
