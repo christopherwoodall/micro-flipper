@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Set .ir files to be text files with LF line endings
+*.ir text eol=lf
+*.txt text eol=lf
