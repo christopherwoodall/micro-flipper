@@ -23,6 +23,11 @@ Next `cd` into the root directory of the micro sd card and run:
 curl -s https://raw.githubusercontent.com/christopherwoodall/micro-flipper/main/tools/installer.sh | bash
 ```
 
+If you are using **WSL** you may need to run the following command to mount the sd card:
+```bash
+sudo mount -t drvfs 'F:' /mnt/f
+```
+
 ---
 
 ## Resources
