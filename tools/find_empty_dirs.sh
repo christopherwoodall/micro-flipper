@@ -2,6 +2,8 @@
 
 empty_folders_file="empty_folders.txt"
 
+
+##
 # Check if a folder is empty
 is_empty_folder() {
     folder_path=$1
@@ -12,12 +14,16 @@ is_empty_folder() {
     fi
 }
 
+
+##
 # Append folder path to the text file
 append_to_file() {
     folder_path=$1
     echo "$folder_path" >> "$empty_folders_file"
 }
 
+
+##
 # DSelete the empty directory
 delete_folder() {
     folder_path=$1
@@ -25,6 +31,8 @@ delete_folder() {
     echo "Deleted folder: $folder_path"
 }
 
+
+##
 # Traverse through the directory and find empty folders
 find_empty_folders() {
     directory=$1
@@ -40,8 +48,17 @@ find_empty_folders() {
     done
 }
 
-# Start from the current directory
-current_directory=$(pwd)
 
+##
+# Check if a target directory is provided as an argument
+if [ -z "$1" ]; then
+    # If not, start from the current directory
+    target_directory=$(pwd)
+else
+    target_directory="$1"
+fi
+
+
+##
 # Run the script
-find_empty_folders "$current_directory"
+find_empty_folders "$target_directory"
