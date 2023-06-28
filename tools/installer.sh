@@ -23,4 +23,18 @@ git checkout -t upstream/main
 
 rm -rf "$tmp_dir"
 
+
+# Python Installer
+python -m venv venv
+
+source venv/bin/activate
+
+pip install PyYAML gitpython
+
+chmod +x setup.py
+
+./tools/setup.py
+
+
+
 echo "Installation completed successfully."
