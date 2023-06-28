@@ -24,3 +24,10 @@ git checkout -t upstream/main
 rm -rf "$tmp_dir"
 
 echo "Installation completed successfully."
+
+
+# # TODO: Update installer
+# python -m venv venv
+# . venv/bin/activate
+# pip install PyYAML gitpython # TODO: Use only built-ins
+# python setup.py

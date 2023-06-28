@@ -1,0 +1,27 @@
+---
+
+paths:
+  - apps
+  - apps_data
+  - badusb
+  - dolphin
+  - gpio
+  - infrared
+  - nfc
+  - rfid
+  - subghz
+  - subplaylist
+  - swd_scripts
+
+
+repos:
+  - repo: https://github.com/logickworkshop/Flipper-IRDB
+    path: infrared/flipper-irdb
+    post_update:
+      - echo "Hello World"
+
+  - repo: https://github.com/I-Am-Jakoby/Flipper-Zero-BadUSB
+    path: badusb/I-Am-Jakoby
+
+  - repo: https://github.com/FalsePhilosopher/badusb
+    path: badusb/FalsePhilosopher
