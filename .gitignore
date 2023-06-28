@@ -2,23 +2,51 @@
 __private__
 
 # directories
-# apps/*
-# apps_data/*
-# badusb/*
-# dolphin/*
-# filpper-toolbox/*
-# gpio/*
-# ibtnfuzzer/*
-# infrared/*
-# music_player/*
-# nfc/*
-# rfid/*
-# rfidfuzzer/*
-# subghz/*
-# subplaylist/*
-# swd_scripts/*
-# u2f/*
-# wifi-devboard/*
+apps/*
+!apps/.gitkeep
+
+apps_data/*
+!apps_data/.gitkeep
+
+badusb/*
+!badusb/.gitkeep
+
+dolphin/*
+!dolphin/.gitkeep
+
+gpio/*
+!gpio/.gitkeep
+
+ibtnfuzzer/*
+!ibtnfuzzer/.gitkeep
+
+infrared/*
+!infrared/.gitkeep
+
+music_player/*
+!music_player/.gitkeep
+
+nfc/*
+!nfc/.gitkeep
+
+rfid/*
+!rfid/.gitkeep
+
+rfidfuzzer/*
+!rfidfuzzer/.gitkeep
+
+subghz/*
+!subghz/.gitkeep
+
+subplaylist/*
+!subplaylist/.gitkeep
+
+swd_scripts/*
+!swd_scripts/.gitkeep
+
+u2f/*
+!u2f/.gitkeep
+
 
 # artifacts
 output.log
