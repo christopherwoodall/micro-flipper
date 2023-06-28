@@ -1,5 +1,9 @@
-# development
-__private__
+# configs
+manifest.micro
+
+# artifacts
+output.log
+
 
 # directories
 apps/*
@@ -48,7 +52,6 @@ u2f/*
 !u2f/.gitkeep
 
 
-# artifacts
-output.log
-
+# development
+__private__
 venv
