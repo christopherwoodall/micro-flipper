@@ -1,1 +1,26 @@
+# development
 __private__
+
+# directories
+# apps/*
+# apps_data/*
+# badusb/*
+# dolphin/*
+# filpper-toolbox/*
+# gpio/*
+# ibtnfuzzer/*
+# infrared/*
+# music_player/*
+# nfc/*
+# rfid/*
+# rfidfuzzer/*
+# subghz/*
+# subplaylist/*
+# swd_scripts/*
+# u2f/*
+# wifi-devboard/*
+
+# artifacts
+output.log
+
+venv
