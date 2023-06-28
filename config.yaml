@@ -1,5 +1,7 @@
 ---
 
+single_shell: true
+
 paths:
   - apps
   - apps_data
@@ -25,3 +27,9 @@ repos:
 
   - repo: https://github.com/FalsePhilosopher/badusb
     path: badusb/FalsePhilosopher
+
+  # - repo: https://github.com/developer/project/subdirectory
+  #   path: subghz/example/subdirectory
+
+  # - repo: https://github.com/developer/foo/bar
+  #   path: subghz/baz
