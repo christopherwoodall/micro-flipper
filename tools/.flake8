@@ -1,0 +1,33 @@
+# TODO: move this to pyproject.toml when supported, see https://github.com/PyCQA/flake8/issues/234
+# https://black.readthedocs.io/en/stable/the_black_code_style.html#slices
+
+[flake8]
+per-file-ignores =
+    **/__init__.py:F401,
+
+
+exclude =
+    .git,
+    .github,
+    venv*,
+    __pycache__,
+    dist,
+    utils,
+
+
+ignore =
+    E121,
+    E123,
+    E126,
+    E226,
+    E24,
+    E704,
+    W503,
+    W504,
+    ; whitespace before ':' (slice)
+    E203,
+    ; missing whitespace after ',', ';', or ':'
+    E231,
+    ; `black` is used to enforce line length
+    E501,
+
