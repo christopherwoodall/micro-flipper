@@ -28,8 +28,10 @@ repos:
   - repo: https://github.com/FalsePhilosopher/badusb
     path: badusb/FalsePhilosopher
 
-  # - repo: https://github.com/developer/project/subdirectory
-  #   path: subghz/example/subdirectory
+  # - repo: https://github.com/developer/project
+  #   branch: main
+  #   subdirectory: /path/to/folder
+  #   path: optional/path/to/clone/to
 
-  # - repo: https://github.com/developer/foo/bar
-  #   path: subghz/baz
+  # - repo: https://github.com/developer/foo@bar#subdirectory=biz
+  #   path: subghz/buz
